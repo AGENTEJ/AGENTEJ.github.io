@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>How to Start Programming</title>
+    <link rel="stylesheet" href="design.css">
+</head>
+<body>
+    <header>
+        <h1>How to Start Programming</h1>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="#introduction">Introduction</a></li>
+            <li><a href="#tools">Tools</a></li>
+            <li><a href="#resources">Resources</a></li>
+            <li><a href="#practice">Practice</a></li>
+            <li><a href="#algorithms">Algorithms</a></li>
+            <li><a href="#databases">Databases</a></li>
+            <li><a href="#webdev">Web Development</a></li>
+        </ul>
+    </nav>
+    <main>
+        <section id="introduction">
+            <h2>Introduction</h2>
+            <p>Programming is the process of creating a set of instructions that a computer can execute to perform a specific task. Learning to program opens doors to developing software, websites, applications, and even artificial intelligence systems.</p>
+            <p>It is essential to understand the fundamentals before diving into coding. These include logical thinking, problem-solving skills, and knowledge of how computers process instructions.</p>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/8_mPEZWWIHg" allowfullscreen></iframe>
+        </section>
+        <section id="tools">
+            <h2>Tools You Need</h2>
+            <p>To begin programming, you need the right set of tools. Here are some essential tools that every programmer should be familiar with:</p>
+            <div class="columns">
+                <div>
+                    <h3>Essential Tools</h3>
+                    <ul>
+                        <li><strong>Text Editor:</strong> A text editor like VS Code or Sublime Text allows you to write and edit your code efficiently.</li>
+                        <li><strong>Programming Languages:</strong> Beginners should start with languages such as Python or JavaScript, which are easier to learn and widely used.</li>
+                        <li><strong>Version Control:</strong> Git and platforms like GitHub help manage code versions and collaborate with others.</li>
+                        <li><strong>Compiler/Interpreter:</strong> A compiler translates your code into machine-readable instructions. For example, Python uses an interpreter, while Java and C++ use compilers.</li>
+                    </ul>
+                </div>
+                <div>
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/7Jfh-lrzuFM" allowfullscreen></iframe>
+                </div>
+            </div>
+        </section>
+        <section id="resources">
+            <h2>Resources to Learn</h2>
+            <p>There are many resources available to help you learn programming. These include online courses, books, and coding exercises.</p>
+            <div class="columns">
+                <div>
+                    <h3>Learning Platforms</h3>
+                    <ol>
+                        <li><a href="https://www.codecademy.com">Codecademy</a> - Offers interactive coding lessons for beginners.</li>
+                        <li><a href="https://www.freecodecamp.org">freeCodeCamp</a> - Provides projects and exercises to enhance coding skills.</li>
+                        <li><a href="https://www.khanacademy.org">Khan Academy</a> - Offers free courses on computer science and programming.</li>
+                        <li><a href="https://www.udemy.com">Udemy</a> - Provides paid and free programming courses.</li>
+                    </ol>
+                </div>
+                <div>
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/3CdzkLQ2W8w" allowfullscreen></iframe>
+                </div>
+            </div>
+        </section>
+        <section id="practice">
+            <h2>Practice: Your First Java Program</h2>
+            <p>One of the best ways to learn programming is by practicing. Below is a simple Java program that prints "Hello, World!" to the console.</p>
+            <pre>
+                <code>
+public class Main {
+    public static void main(String[] args) {
+        System.out.println("Hello, World!");
+    }
+}
+                </code>
+            </pre>
+            <p>This simple program helps you understand syntax, structure, and how to run Java code.</p>
+        </section>
+        <section id="algorithms">
+            <h2>Understanding Algorithms</h2>
+            <p>Algorithms are a set of rules or instructions that guide how to solve a particular problem. They are the foundation of computer science and are used in every application, from sorting data to artificial intelligence.</p>
+            <p>For example, a common sorting algorithm is Bubble Sort, which sorts an array by repeatedly swapping adjacent elements if they are in the wrong order.</p>
+            <pre>
+                <code>
+# Example of Bubble Sort in Python
+arr = [64, 25, 12, 22, 11]
+for i in range(len(arr)):
+    for j in range(0, len(arr)-i-1):
+        if arr[j] > arr[j+1]:
+            arr[j], arr[j+1] = arr[j+1], arr[j]
+print(arr)
+                </code>
+            </pre>
+            <p>Understanding and implementing algorithms is crucial for becoming a proficient programmer.</p>
+        </section>
+        <section id="databases">
+            <h2>Introduction to Databases</h2>
+            <p>Databases store and manage large amounts of structured data. SQL (Structured Query Language) is the most common language used for interacting with databases.</p>
+            <p>Here is an example of how to create a simple database table in SQL:</p>
+            <pre>
+                <code>
+-- Example SQL Query
+CREATE TABLE Users (
+    ID INT PRIMARY KEY,
+    Name VARCHAR(50),
+    Email VARCHAR(50)
+);
+                </code>
+            </pre>
+        </section>
+    </main>
+    <footer>
+        <p>And that was my project, thank you very much for reading!</p>
+        <img src="creepycat.gif" alt="Project Conclusion GIF">
+    </footer>
+</body>
+</html>
